@@ -1,0 +1,11 @@
+name: RaceTimer
+main: org.norules.racetimer.RaceTimer
+version: 0.2
+commands:
+  starttimer:
+  stoptimer:
+  records:
+    description: Displays the top 10 record times.
+    usage: /records
+    permission: RaceTimer.records
+    permission-message: You don't have <permission>
